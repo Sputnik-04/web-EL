@@ -666,6 +666,45 @@ body {
     overflow-x: hidden;
 }
 
+.gallery-page {
+    background-color: rgb(255, 255, 255);
+    
+    
+    padding: 60px 0;
+    text-align: center;
+}
+
+.gallery-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.image-gallery-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.image-gallery {
+    width: calc(20% - 10px);
+    margin: 5px;
+    cursor: pointer;
+    transition: opacity 0.5s ease, transform 0.5s ease;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
+}
+
+.image-gallery img {
+    width: 100%;
+    height:fit-content;
+}
+
+.image-gallery:hover {
+    opacity: 0.8;
+    transform: scale(1.1);
+}
+
+
         
 
 
@@ -812,6 +851,31 @@ body {
             </div>
             
     </div>
+
+    <div class="gallery-page">
+        <div class="gallery-content">
+            <h1 style="color: red;">We all love BLR</h1>
+            <p>Tag your photos with #iloveBLR for a chance to be featured</p>
+        </div>
+        <div class="image-gallery-container">
+            <div class="image-gallery">
+                <img src="https://d1lyi436ccpkte.cloudfront.net/strapi-assets/I_love_BLR_SM_post_Artboard_1_e75ea8eb3b.jpg" alt="Image 1">
+            </div>
+            <div class="image-gallery">
+                <img src="https://d1lyi436ccpkte.cloudfront.net/strapi-assets/I_love_BLR_SM_post_Artboard_1_copy_c4ad4ac775.jpg" alt="Image 2">
+            </div>
+            <div class="image-gallery">
+                <img src="https://d1lyi436ccpkte.cloudfront.net/strapi-assets/I_love_BLR_SM_post_Artboard_1_copy_5_3ca6239da7.jpg" alt="Image 3">
+            </div>
+            <div class="image-gallery">
+                <img src="https://d1lyi436ccpkte.cloudfront.net/strapi-assets/I_love_BLR_SM_post_Artboard_1_copy_6_1_b402ce8813.jpg" alt="Image 4">
+            </div>
+            <div class="image-gallery">
+                <img src="https://d1lyi436ccpkte.cloudfront.net/strapi-assets/I_love_BLR_SM_post_Artboard_1_copy_6_2_694af6df94.jpg" alt="Image 5">
+            </div>
+        </div>
+    </div>
+    
     <div class="parallax-5">
         <h1>Unwind Outdoors</h1>
         <h2>Check out what's happening at The Quad, right outside the arrivals.</h2>
