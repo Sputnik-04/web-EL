@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Website</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Times New Roman', Times, serif, sans-serif;
+    }
+
+    .container {
+      width: 100%;
+      /* max-width: 1200px; */
+      /* margin: 0 auto; */
+      /* padding: 20px; */
+    }
+
+    .page {
+      background-color: #f0f0f0;
+      padding: 50px;
+    }
+
+    .transparent-box {
+      background-image: url('https://d1lyi436ccpkte.cloudfront.net/strapi-assets/F_Lights_1440_X_500_2_89cfd0bf5a_1_4fee2992a1.jpg');
+      background-size: cover;
+      padding-left: 100px;
+      color: rgb(0, 0, 0);
+      text-align: center;
+    }
+
+    .content {
+      background-color: rgba(255, 255, 255, 0.8);
+      padding-left: 20px;
+    }
+
+    .page2 {
+      display: flex;
+      align-items: flex-start;
+    }
+
+    .image-column {
+      width: 30%;
+      /* padding: 20px; */
+      padding-bottom: 100px;
+    }
+
+    .image-box {
+      width: 100%;
+      margin-bottom: 20px;
+    }
+
+    .info-column {
+      width: 125%;
+      padding: 10px;
+    }
+
+    .info-box {
+      background-color: white;
+      width: 900px;
+      padding: 25px;
+      margin-bottom: 24px;
+    }
+
+    .page3 {
+      display: flex;
+      align-items: flex-start;
+    }
+
+    .image-side {
+      width: 20%;
+      padding: 20px;
+    }
+
+    .info-block {
+      width: 10%;
+      padding: 15px;
+      margin-right: 40px;
+      background-color: white;
+    }
+
+    .back-to-top {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      display: none;
+      cursor: pointer;
+    }
+    .text{
+      size: 150px;
+      font-size: x-large;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="container">
+    <div class="page transparent-box">
+      <div class="content">
+        <h1 style="font-family: Arial, Helvetica, sans-serif">
+          Flights<br>
+          Terminal 1 & Terminal 2</h1>
+      </div>
+    </div><br><br>
+    <div class="content text"><span>Keep track of flight timings with live updates.</span>
+    </div>
+    <div class="page page2">
+      <table style="align-content: center;">
+        <div><pre>    
+          <img src="https://www.bengaluruairport.com/static/media/flight-status.4d31a96be257c6ea8cdf.svg" alt="flight" ></img><span class="text">Departure</span>
+        </div>
+        </pre>
+          
+        <tr>
+          <td>
+            <div class="image-column">
+              <div class="image-box">
+                <img
+                  style=" height: 150px;  margin-left: 6px;  margin-top: 98px; width: 150px; background-color: rgb(255, 255, 255);"
+                  src="https://d1lyi436ccpkte.cloudfront.net/uploads/akasa_eb805f9d1c.png?99475585.19999993"
+                  alt="Image 1">
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="info-column">
+              <div class="info-box">
+                <h2>Information 1</h2>
+                <p>Information about image 1.</p>
+              </div>
+            </div>
+          </td>
+        </tr>
+
+        <tr>
+          <td>
+            <div class="image-column">
+              <div class="image-box">
+                <img
+                  style=" height: 150px;  margin-left: 6px;  margin-top: 98px; width: 150px; background-color: rgb(40, 54, 156);"
+                  src="https://d1lyi436ccpkte.cloudfront.net/uploads/6_E_5a28a9c7ba.png" alt="Image 2">
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="info-column">
+              <div class="info-box">
+                <h2>Information 2</h2>
+                <p>Information about image 2.</p>
+              </div>
+            </div>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <div class="image-column">
+              <div class="image-box">
+                <img
+                  style=" height: 150px;  margin-left: 6px;  margin-top: 98px; width: 150px; background-color: rgb(236, 32, 40);"
+                  src="https://d1lyi436ccpkte.cloudfront.net/uploads/OG_1649f8409c.png" alt="Image 3">
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="info-column">
+              <div class="info-box">
+                <h2>Information 3</h2>
+                <p>Information about image 3.</p>
+              </div>
+            </div>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <div class="image-column">
+              <div class="image-box">
+                <img
+                  style=" height: 150px;  margin-left: 6px;  margin-top: 98px; width: 150px; background-color: rgb(86, 99, 196);"
+                  src="https://d1lyi436ccpkte.cloudfront.net/uploads/G8_00a74f5681.png" alt="Image 4">
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="info-column">
+              <div class="info-box">
+                <h2>Information 4</h2>
+                <p>Information about image 4.</p>
+              </div>
+            </div>
+          </td>
+        </tr>
+      </table>
+    </div>
+    <div class="page page3">
+      <div class="image-side">
+        <img style=" height: 150px; width: 150px;"
+          src="https://d1lyi436ccpkte.cloudfront.net/strapi-assets/Bengaluru_Airport_Logo_d71fb85c36.svg" alt="KIA">
+      </div>
+      <div class="info-block">
+        <a class="col-md-4 col-sm-4 col-lg-4 footer__links__section" href="" style="border-radius: 5;">FAQs</a>
+
+      </div>
+      <div class="info-block">
+        <a class="col-md-4 col-sm-4 col-lg-4 footer__links__section" href="">Disclaimer</a>
+      </div>
+      <div class="info-block">
+        <a class="col-md-4 col-sm-4 col-lg-4 footer__links__section" href="">Contact Us</a>
+      </div>
+      <div class="info-block">
+        <a href="https://play.google.com/store/apps/details?id=com.bial.edp" target="_blank" rel="noopener noreferrer"
+          class="footer__download__image">
+          <img
+            src="https://d1lyi436ccpkte.cloudfront.net/strapi-assets/google_play_71afea7706_776f74f714_4b190b64d9.svg"
+            alt="Download on Google Play">
+        </a>
+      </div>
+      <div class="info-block">
+        <a href="https://apps.apple.com/us/app/blr-airport/id1501331497?ls=1">
+          <img
+            src="https://d1lyi436ccpkte.cloudfront.net/strapi-assets/ios_app_store_7228363a5c_6fae140a41_27c4893ebb.svg"
+            alt="Download on App Store">
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <button class="back-to-top" onclick="scrollToTop()"
+    style="font-family: 'Times New Roman', Times, serif; border-radius: 5px; background-color: #f0f0f0;">Back to
+    Top</button>
+
+  <script>
+    window.onscroll = function () { scrollFunction() };
+
+    function scrollFunction() {
+      if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        document.querySelector('.back-to-top').style.display = "block";
+      } else {
+        document.querySelector('.back-to-top').style.display = "none";
+      }
+    }
+
+    function scrollToTop() {
+      document.body.scrollTop = 0;
+      document.documentElement.scrollTop = 0;
+    }
+  </script>
+  <div class="footer">
+    <p style="font-family: ;"> <pre>      &copy; 2023 BIAL. All Rights Reserved.</pre></p>
+  </div>
+
+</body>
+
+</html>
